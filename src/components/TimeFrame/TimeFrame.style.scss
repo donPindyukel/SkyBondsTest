@@ -1,0 +1,19 @@
+.time-frame {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  width: 239px;
+  border-radius: 5px;
+  .time-frame-item {
+	padding: 5px;
+	border-right: 2px solid gray;
+	text-align: center;
+	cursor: pointer;
+	&:last-child {
+	  border: none;
+	}
+	&.active {
+	  background: radial-gradient(ellipse at center, #ffffff, #b3b3b3);
+	}
+  }
+}
